@@ -13,7 +13,7 @@ Evaluation criteria: https://mediapankki.haaga-helia.fi/sharing/product/f34dee6b
 
 # SOURCES:
 
-- Is Mendelay in use? Lot of thesis writers have thanked for that hint:
+- Is Mendeley in use? Lot of thesis writers have thanked for that hint:
 
 Eng LibGuides:
 
