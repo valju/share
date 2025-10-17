@@ -17,11 +17,12 @@ General principles
 *   Student is responsible for demonstrating all the skills and knowledge.
 *   Remember that by RPL:ing courses there is always something you miss. Something that might not even read in course description. So don't say "in the school we never had x, y and z", like one graduating student who had RPL:ed few courses said in an event.
 
-The procedure
--------------
+The procedure for e.g. project courses
+--------------------------------------
 
 1.  Inform teachers that you want to RPL=AHOT Before the course starts!
 1.  Gather enough work experience at work. Remember that you cannot use same hours for replacing multiple courses. E.g. student replacing 15 ECTS project, 30 ECTS work placement and doing 15 ECTS Diary thesis would need 400h + 800h + 400h = 1600h, equivalent of 10 months of full-time work.
+1. Check that your knowledge and experience matches the course contents. E.g. for international software development project, how can you show development in international and multi-cultural environment?
 1.  Get a testimonial (Työtodistus) which lists also the tasks you have been doing
 1.  Schedule a meeting with the teacher
 1.  Prepare the things you want to demonstrate
