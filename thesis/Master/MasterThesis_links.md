@@ -23,6 +23,8 @@ https://libguides.haaga-helia.fi/referencing
 
 https://libguides.haaga-helia.fi/Mendeley-eng
 
+https://libguides.haaga-helia.fi/Keenious-AI-tool   (Tool for finding sources! New in Fall 2025)
+
 Finnish LibGuides:
 
 https://libguides.haaga-helia.fi/home
@@ -30,6 +32,8 @@ https://libguides.haaga-helia.fi/home
 https://libguides.haaga-helia.fi/lahdeviittaamisen-tueksi
 
 https://libguides.haaga-helia.fi/mendeley/
+
+https://libguides.haaga-helia.fi/keenious   (Työkalu lähteiden löytämiseen! Uutta syksystä 2025!)
 
 # AI USE IN STUDIES AND THESIS:
 
