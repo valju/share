@@ -1,0 +1,33 @@
+FROM python:latest
+# download a Linux image with python tool environment installed and configured
+# ---- so far same image for all developers in the whole World --------
+
+# next you could do some file publication or so, with the
+#  COPY (local) or ADD (www...) commands. Or build something using the RUN 
+RUN echo "print('Hello, Dockerfile World!')" > app.py
+# This creates a file called app.py to the container = currently built image
+
+# Or define some ENV variables here before the python code started
+
+# ---------------------------------------------------------------------
+# after building the image, set how it would start at "docker run"
+# or docker-compose up:
+
+# ENTRYPOINT sets the main command that always runs when the container starts. 
+# It is meant to define the container’s default executable.
+# CMD provides default arguments for ENTRYPOINT 
+# _or_ sets a command to run if ENTRYPOINT is not specified.
+# CMD can be overridden at runtime. ENTRYPOINT cannot.
+
+ENTRYPOINT ["python"]
+CMD ["app.py"]
+
+# =>   python app.py
+# the 'app.py' part, the CMD can be easily changed in the docker run command
+
+# ----- Command to test this Dockerfile at bottom, remove the # naturally ----
+# build image, give it temp name, run that image (using given name) as
+# container, remove that container rightr afterwards, remove the image 
+# using the name
+
+# docker build -t temp_image -f Dockerfile1-ENTRYPOINT_AND_CMD . && docker run --rm temp_image && docker rmi temp_image

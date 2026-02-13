@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T07:44:19.891Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="XEm0uAsqlxpMcGRRUsVO" version="22.1.21" type="device">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
   <diagram name="Page-1" id="IDyL27DXPiaBVKyzC-F6">
-    <mxGraphModel dx="1173" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,8 +24,8 @@
         <mxCell id="fQaYO53DZ5WKYQM4YWXY-3" value="&lt;b&gt;npmjs&lt;/b&gt;, &lt;br&gt;npm module &lt;br&gt;registry" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="150" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="fQaYO53DZ5WKYQM4YWXY-4" value="&lt;b&gt;CSC Cloud&lt;/b&gt;&lt;br&gt;Linux VMs as our publication env&lt;br&gt;&lt;br&gt;backend (node, express, mysql driver) : 3001&lt;br&gt;&lt;br&gt;database (e.g. MariaDB) : 3306&lt;br&gt;&lt;br&gt;frontend (e.g. npm build output published on nginx server)&lt;br&gt;&lt;br&gt;at least the nginx server port open in the firewall" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="200" width="440" height="220" as="geometry" />
+        <mxCell id="fQaYO53DZ5WKYQM4YWXY-4" value="&lt;b&gt;CSC Cloud&lt;/b&gt;&lt;br&gt;(Linux VM or) Rahti Kubernetes Docker as our publication env&lt;br&gt;&lt;br&gt;backend (node, express, mysql driver) : 3001&lt;br&gt;&lt;br&gt;database (e.g. MariaDB) : 3306&lt;br&gt;&lt;br&gt;frontend (e.g. npm build output published on nginx server)&lt;br&gt;&lt;br&gt;at least the nginx server port open in the firewall" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="170" width="440" height="270" as="geometry" />
         </mxCell>
         <mxCell id="fQaYO53DZ5WKYQM4YWXY-8" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="30" y="240" width="140" height="80" as="geometry" />
@@ -71,7 +71,7 @@
             <mxPoint x="-1" y="-29" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fQaYO53DZ5WKYQM4YWXY-40" value="&lt;b&gt;Developer&#39;s computer:&lt;br&gt;&lt;/b&gt;IDE, source code &amp;amp; other assets&lt;br&gt;possibly locally&lt;br&gt;running dev env (React?)&lt;br&gt;of the system,&lt;br&gt;ssh tunnels? Putty and&lt;br&gt;WinSCP for taking&lt;br&gt;ssh connections or&lt;br&gt;moving files on remote computer" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;spacingTop=0;spacing=12;" parent="1" connectable="0" vertex="1">
+        <mxCell id="fQaYO53DZ5WKYQM4YWXY-40" value="&lt;b&gt;Developer&#39;s computer:&lt;br&gt;&lt;/b&gt;IDE, source code &amp;amp; other assets&lt;br&gt;possibly locally&lt;br&gt;running dev env (React?)&lt;br&gt;of the system,&lt;br&gt;ssh tunnels? Putty and&lt;br&gt;WinSCP for taking&lt;br&gt;ssh connections or&lt;br&gt;moving files on remote computer.&lt;br&gt;&lt;br&gt;Even dev tool env can be&lt;div&gt;dockerized&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;spacingTop=0;spacing=12;" parent="1" connectable="0" vertex="1">
           <mxGeometry x="110.00140556802558" y="389.999033857066" as="geometry">
             <mxPoint x="5" y="-2" as="offset" />
           </mxGeometry>

@@ -1,4 +1,4 @@
-# DOCKER EXAM ROUGH TOPIC LIST - upd. Jan 30, 2025
+# DOCKER EXAM ROUGH TOPIC LIST - upd. Feb 12, 2026
 
 * What is Docker?
 * What is Docker container vs virtual machine?
@@ -6,20 +6,24 @@
 * What you can do with Docker? 
 * Benefits of containerization/dockerization?
 * What is Docker image?
-* What is Docker Hub and how to use it?
-* Docker Hub 'official images', trust/security in general
+    * What is Docker Hub and how to use it?
+    * Docker Hub 'official images', trust/security in general
 * Building images
 * Dockerfile
-* ENV variables (will go also to running container), ARG variables (only for build-time)
-* builder image and the 'deployer image'/'runner image'/'server image'
-* ENTRYPOINT, CMD
-* YAML (just the very basics of YAML syntax and format rules)
+    * ENV variables (will go also to running container), ARG variables (only for build-time)
+    * 1 builder image (npm i, nmp build) and 2 the 'deployed image'/'runner image'/'server image' (npm run)
+    * RUN here would mean running commands inside container while building the image
+    * (port _exposing_ is not really doing anything, informative)
+    * ENTRYPOINT, CMD     (Detail: if define both, then one works as CLI arguments for the other)
+* YAML (just the very basics of YAML language markup/syntax and format rules)
 * Running and stopping containers
 * Docker CLI commands
-* -it (two flags -i and -t) vs --it (one whole word parameter 'it') 
+    * -it (two flags -i and -t) vs --it (one whole word parameter 'it') 
+* EXEC means running commands from outside, executed inside of a running container
 * Docker networks (3 most common user-defined types (or 'drivers'): Bridge, Host, None)
-* +1 Docker's Default network e.g. 'Docker0', which is there automatically, and containers would be part of it automatically. It's of type/driver Bridge
-* ports  (expose vs. real publish)
+    * +1 Docker's Default network e.g. 'Docker0', which is there automatically, and containers would be part of it automatically. It's of type/driver: Bridge
+* container's ports  (expose=just informative vs. real **publish**=open)
 * Docker volumes (3 most common types: Host, anonymous, named)
-* Docker compose
-* Docker as part of architecture design/selection
+* Docker compose (Orchestration of multiple (images->)containers, networks, volumes, ENVs - connecting and/or isolating)
+* Docker (or other containerization platform) as part of architecture design/selection
+    * micro-service architecture could benefit most? monolithic the least?

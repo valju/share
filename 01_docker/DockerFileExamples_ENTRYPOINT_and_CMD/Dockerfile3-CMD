@@ -1,0 +1,16 @@
+FROM nginx
+# download a Linux image with nginx installed and configured
+# ---- so far same image for all developers in the whole World --------
+
+# next you could do some file publication or so, with the
+#  COPY or ADD commands. Or build something using the RUN command
+
+# Or define some ENV variables here before the nginx server started
+
+# ---------------------------------------------------------------------
+# after building the image, set how it would start at "docker run"
+# or docker-compose up:
+
+CMD ["nginx", "-g", "daemon off;"]
+
+# =>   nginx -g daemon off;
