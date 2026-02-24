@@ -11,7 +11,7 @@
 * Building images
 * Dockerfile
     * ENV variables (will go also to running container), ARG variables (only for build-time)
-    * 1. builder image (npm i, nmp build) and 2. the 'deployed image'/'runner image'/'server image' (npm run) concept
+    * a) builder image (npm i, nmp build) and b) the 'deployed image'/'runner image'/'server image' (npm run) concept
     * RUN here would mean running commands inside container while building the image
     * (port _exposing_ is not really doing anything, informative)
     * ENTRYPOINT, CMD     (Detail: if define both, then one works as CLI arguments for the other)
