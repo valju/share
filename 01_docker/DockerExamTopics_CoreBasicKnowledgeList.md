@@ -11,7 +11,7 @@
 * Building images
 * Dockerfile
     * ENV variables (will go also to running container), ARG variables (only for build-time)
-    * 1 builder image (npm i, nmp build) and 2 the 'deployed image'/'runner image'/'server image' (npm run)
+    * 1. builder image (npm i, nmp build) and 2. the 'deployed image'/'runner image'/'server image' (npm run) concept
     * RUN here would mean running commands inside container while building the image
     * (port _exposing_ is not really doing anything, informative)
     * ENTRYPOINT, CMD     (Detail: if define both, then one works as CLI arguments for the other)
@@ -27,3 +27,9 @@
 * Docker compose (Orchestration of multiple (images->)containers, networks, volumes, ENVs - connecting and/or isolating)
 * Docker (or other containerization platform) as part of architecture design/selection
     * micro-service architecture could benefit most? monolithic the least?
+* Kubernetes underlayer > OKD/OpenShift toppings > CSC Rahti (installation of OKD)
+    * e.g. cluster-node-pod-container
+    * etc. yellow highlighted parts of the 15-page document. 
+        * Questions only about them (and text immediately around or inside them).
+        * Do not read the whole doc / all the lines. Some you can leaf through fast of course.
+        * Some text/pages skip totally. E.g. cPouta stuff. 
