@@ -1,4 +1,4 @@
-# DOCKER EXAM ROUGH TOPIC LIST - upd. Feb 12, 2026
+# DOCKER EXAM ROUGH TOPIC LIST - upd. Feb 24, 2026 - Only multiple-choice questions
 
 * What is Docker?
 * What is Docker container vs virtual machine?
