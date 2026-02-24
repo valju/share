@@ -14,13 +14,16 @@
     * a) builder image (npm i, nmp build) and b) the 'deployed image'/'runner image'/'server image' (npm run) concept
     * RUN here would mean running commands inside container while building the image
     * (port _exposing_ is not really doing anything, informative)
-    * ENTRYPOINT, CMD     (Detail: if define both, then one works as CLI arguments for the other)
+    * ENTRYPOINT, CMD
+        * Examples of e.g. this can be found by browsing the folders of this repo
+        * Detail: if define both, then CMD works as CLI arguments for the ENTRYPOINT
 * YAML (just the very basics of YAML language markup/syntax and format rules)
 * Running and stopping containers
 * Docker CLI commands
     * -it (two flags -i and -t) vs --it (one whole word parameter 'it') 
 * EXEC means running commands from outside, executed inside of a running container
 * Docker networks (3 most common user-defined types (or 'drivers'): Bridge, Host, None)
+    * Again there are some examples in the folders of this repo
     * +1 Docker's Default network e.g. 'Docker0', which is there automatically, and containers would be part of it automatically. It's of type/driver: Bridge
 * container's ports  (expose=just informative vs. real **publish**=open)
 * Docker volumes (3 most common types: Host, anonymous, named)
