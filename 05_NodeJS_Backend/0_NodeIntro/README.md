@@ -142,6 +142,7 @@ In package.json scripts we utilize concurrently and give it two scripts to run c
 
 > npm install express knex mysql 
 
+These might be obsolete already? Nowadays maybe no type installation separately?
 > npm i -D @types/express  @types/node
 
 > npm run build 
