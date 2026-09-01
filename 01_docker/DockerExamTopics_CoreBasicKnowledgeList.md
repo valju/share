@@ -8,7 +8,10 @@
 * What is Docker image?
     * What is Docker Hub and how to use it?
     * Docker Hub 'official images', trust/security in general
-* Building images
+* What is Docker container?
+* Docker (or other containerization platform) as part of architecture design/selection
+    * micro-service architecture could benefit most? monolithic the least?    
+## Building images
 * Dockerfile
     * ENV variables (will go also to running container), ARG variables (only for build-time)
     * a) builder image (npm i, nmp build) and b) the 'deployed image'/'runner image'/'server image' (npm run) concept
@@ -17,19 +20,22 @@
     * ENTRYPOINT, CMD
         * Examples of e.g. this can be found by browsing the folders of this repo
         * Detail: if define both, then CMD works as CLI arguments for the ENTRYPOINT
-* YAML (just the very basics of YAML language markup/syntax and format rules)
-* Running and stopping containers
+
+## Running and stopping containers
 * Docker CLI commands
     * -it (two flags -i and -t) vs --it (one whole word parameter 'it') 
 * EXEC means running commands from outside, executed inside of a running container
-* Docker networks (3 most common user-defined types (or 'drivers'): Bridge, Host, None)
+
+## Orchestrating/Composing the Running, connecting and stopping of the containers
+* YAML (just the very basics of YAML language markup/syntax and format rules)
+* Docker compose (Orchestration of multiple (images->)containers, networks, volumes, ENVs, ports - connecting and/or isolating)
+* Docker **networks** (3 most common user-defined types (or 'drivers'): Bridge, Host, None)
     * Again there are some examples in the folders of this repo
     * +1 Docker's Default network e.g. 'Docker0', which is there automatically, and containers would be part of it automatically. It's of type/driver: Bridge
 * container's ports  (expose=just informative vs. real **publish**=open)
-* Docker volumes (3 most common types: Host, anonymous, named)
-* Docker compose (Orchestration of multiple (images->)containers, networks, volumes, ENVs - connecting and/or isolating)
-* Docker (or other containerization platform) as part of architecture design/selection
-    * micro-service architecture could benefit most? monolithic the least?
+* Docker **volumes** (3 most common types: Host, anonymous, named)
+
+## Next level Orchestration - Adding cloud and automatic scaling and automatic deployment (CI/CD)
 * Kubernetes underlayer > OKD/OpenShift toppings > CSC Rahti (installation of OKD)
     * e.g. cluster-node-pod-container
     * etc. yellow highlighted parts of the 15-page document. 

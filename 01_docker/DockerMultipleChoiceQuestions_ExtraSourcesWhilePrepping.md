@@ -1,10 +1,8 @@
 # Docker
 
-## Acquiring Basic Knowledge and Understanding through Videos and Multiple Choice Assessment
+## Acquiring Basic Knowledge and Understanding through Videos and Multiple Choice Exam
 
-The task can be found in Teams. Either already or soon. Ask if it doesn't appear within a day.
-
-## Material Links
+### Material Links
 
 Concepts explained in more detail in this [presentation slide deck](DockerConceptsAndVocabulary.pdf).
 
