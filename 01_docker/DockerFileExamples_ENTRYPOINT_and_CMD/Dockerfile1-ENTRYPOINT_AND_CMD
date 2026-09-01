@@ -27,7 +27,7 @@ CMD ["app.py"]
 
 # ----- Command to test this Dockerfile at bottom, remove the # naturally ----
 # build image, give it temp name, run that image (using given name) as
-# container, remove that container rightr afterwards, remove the image 
+# container, remove that container right afterwards, remove the image 
 # using the name
 
 # docker build -t temp_image -f Dockerfile1-ENTRYPOINT_AND_CMD . && docker run --rm temp_image && docker rmi temp_image
